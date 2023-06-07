@@ -1,0 +1,87 @@
+:root {
+    --tamanho: 45px;
+    --borda: 100%;
+    --cor-svg: rgb(255, 255, 255);
+    --cor-fundo: rgb(71, 71, 71);
+    --cor-borda: 5px solid var(--cor-fundo);
+    --margin: 2px;
+}
+
+.botao1,
+.botao2,
+.botao3 {
+    width: var(--tamanho);
+    background-color: var(--cor-fundo);
+    fill: var(--cor-svg);
+    border-radius: var(--borda);
+    border: var(--cor-borda);
+    margin: var(--margin);
+    position: relative;
+}
+
+.svg {
+    position: absolute;
+    border-radius: 200px;
+    fill: rgb(255, 255, 255);
+    width: 8px;
+    padding: 3px;
+    border: 1px rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
+    height: 8px;
+    right: 10px;
+    top: 40px;
+    right: 20px;
+
+}
+
+.conteiner {
+    background-color: rgb(43, 38, 38);
+    height: 45px;
+    display: flex;
+    position: relative;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -8px;
+
+}
+
+.not {
+    position: absolute;
+    left: 25px;
+    top: 3px;
+    border-radius: 20px;
+    background-color: rgb(228, 39, 39);
+    color: black;
+    width: 12px;
+    font-size: 8px;
+    padding: 2px;
+    text-align: center;
+    top: -5px;
+}
+
+.face {
+    margin: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    padding: 5px;
+}
+
+.lupa{
+    width: 20px;
+    background-color: var(--cor-fundo);
+    fill: var(--cor-svg);
+    border-radius: var(--borda);
+    border: var(--cor-borda);
+    margin: var(--margin);
+    position: absolute;
+    top: 9px;
+    margin: 5px;
+    
+   
+}
